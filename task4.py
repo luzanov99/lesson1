@@ -1,0 +1,11 @@
+#task4_1
+elements=['3','5','7','9','10.5']
+print(elements)
+elements.append('Python')
+print(len(elements))
+#task4_2
+print(elements[0])
+print(elements[len(elements)-1])
+print(elements[1:4])
+elements.remove('Python')
+print(elements)
